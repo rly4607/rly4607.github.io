@@ -6,5 +6,30 @@ body {
 }
 #wrapper {
   width: 960px;
-  margin: 20px auto 20px auto;
+  margin: 30px auto 40px auto;
+}
+
+#pictures {
+  width: 240px;
+}
+
+h1 {
+  color: blanchedalmond;
+  font-size: 80px;
+}
+
+h4 {
+  color: #1719c7;
+  font-size: 36px;
+}
+
+#summary {
+  color: red;
+  font-size: 24;
+  font-family: Pacifico;
+}
+
+.Exp-and-Skills {
+  color: burlywood;
+  font-family: monospace;
 }

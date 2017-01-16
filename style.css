@@ -54,7 +54,7 @@ hr {
   font-size: 20px;
 }
 
-.intro-text {
+h1 {
   font-family: 'Nixie One', cursive;
   color: black;
   text-transform: uppercase;
@@ -64,16 +64,21 @@ hr {
   margin-bottom: 50px;
 }
 
-.body-text {
-  font-family: 'Nixie One', cursive;
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   color: black;
   font-size: 20px;
-  font-weight: bold;
-  margin-left: 100px;
-  margin-right: 100px;
-  background-color: rgba(255, 255, 255, 0.35);
-  text-align: left;
+  background-color: rgba(127, 179, 232, 0.5);
   border-radius: 6px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+  text-align: center;
 }
 
 .buttons {
@@ -85,8 +90,8 @@ hr {
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: #0b3861;
   font-size: 20px;
   color: white;
@@ -103,7 +108,11 @@ hr {
   padding-bottom: 15px;
 }
 
-.Gallery {
-  text-align: center;
-  position: relative;
+.form-control {
+  height: 57px;
+  font-size: 17px;
+}
+
+textarea.form-control {
+    height: 201px;
 }

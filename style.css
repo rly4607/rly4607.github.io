@@ -1,45 +1,95 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-brand {
+  font-family: 'Comfortaa', cursive;
+  color: #0b3861;
+  font-size: 30px;
+}
+
+.navbar-nav {
+  font-family: 'Comfortaa', cursive;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.dropdown-menu>li>a {
+  font-family: 'Comfortaa', cursive;
+  color: #0b3861;
+  font-size: 15px;
+}
+
+.fa-home {
+  color: #0b3861;
+}
+
+.fa-camera {
+  color: #0b3861;
+}
+
+.fa-envelope-o {
+  color: #0b3861;
+}
+
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background-image: url(linedpaper.png);
-  background-repeat: repeat;
-}
-
-#navbar {
-  margin-left:25%;
-  margin-right:25%;
-  width: 50%;
+  background-image: url(Images/_DSC0135.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top center;
+  background-size: cover;
   text-align: center;
-  border-color: black;
-  border-style: dashed;
-  border-radius: 25px;
-}
-#wrapper {
-  width: 960px;
-  margin: 30px auto 40px auto;
 }
 
-#pictures {
-  width: 240px;
+hr {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid #0b3861;
 }
 
-h1 {
+.nav-link {
+  color: #0b3861;
+  font-size: 20px;
+}
+
+.intro-text {
+  font-family: 'Nixie One', cursive;
   color: black;
-  font-size: 80px;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 75px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-h4 {
-  color: #1719c7;
-  font-size: 36px;
+.body-text {
+  font-family: 'Nixie One', cursive;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: black;
+  text-align: left;
 }
 
-#summary {
-  color: red;
-  font-size: 24;
-  font-family: Pacifico;
+.buttons {
+  text-align: center;
 }
 
-.Exp-and-Skills {
-  color: burlywood;
-  font-family: monospace;
+.btn-default {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #0b3861;
+  font-size: 20px;
+  color: white;
 }

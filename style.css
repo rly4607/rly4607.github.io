@@ -72,10 +72,8 @@ hr {
   margin-left: 100px;
   margin-right: 100px;
   background-color: rgba(255, 255, 255, 0.35);
-  border-radius: 10px;
-  border-width: 10px;
-  border-color: black;
   text-align: left;
+  border-radius: 6px;
 }
 
 .buttons {
@@ -92,4 +90,24 @@ hr {
   background-color: #0b3861;
   font-size: 20px;
   color: white;
+}
+
+.PrvImg {
+  border: 1px solid;
+  border-color: black;
+  border-radius: 3px;
+}
+
+.row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Gallery {
+  text-align: center;
+  position: relative;
+}
+
+.col-sm-2 {
+  background-color: black;
 }

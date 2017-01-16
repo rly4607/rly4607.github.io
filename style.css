@@ -6,19 +6,28 @@
 .navbar-brand {
   font-family: 'Comfortaa', cursive;
   color: #0b3861;
+  padding-top: 20px;
   font-size: 30px;
 }
 
 .navbar-nav {
   font-family: 'Comfortaa', cursive;
-  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
   padding-right: 25px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
 }
 
 .dropdown-menu>li>a {
   font-family: 'Comfortaa', cursive;
   color: #0b3861;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .fa-home {
@@ -31,15 +40,6 @@
 
 .fa-envelope-o {
   color: #0b3861;
-}
-
-body {
-  background-image: url(https://raw.githubusercontent.com/rly4607/rly4607.github.io/master/Images/IMG_0288.jpg);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top center;
-  background-size: cover;
-  text-align: center;
 }
 
 hr {
@@ -98,16 +98,12 @@ hr {
   border-radius: 3px;
 }
 
-.row {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.portfolio-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .Gallery {
   text-align: center;
   position: relative;
-}
-
-.col-sm-2 {
-  background-color: black;
 }

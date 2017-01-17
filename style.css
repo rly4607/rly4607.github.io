@@ -115,3 +115,9 @@ h4 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+#contact-item {
+  border: 2px solid;
+  border-color: #0b3861;
+  border-radius: 17px;
+}

@@ -115,12 +115,3 @@ h4 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
-.form-control {
-  height: 57px;
-  font-size: 17px;
-}
-
-textarea.form-control {
-    height: 201px;
-}
